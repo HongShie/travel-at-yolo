@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.highlighter{
+    background-color: aqua;
+}
+.highlighter_2{
+    background-color: aquamarine;
+}
+.highlighter_3{
+    background-color: blanchedalmond;
+}
+
+.my_font{
+    font-family: 'Source Serif 4', serif;
+}
+.signature_font{
+    font-family: 'Great Vibes', cursive;
+}
+
+body {
+    margin: 0;
+}
+
+.navtop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 -20px 150px 0 #d9d9d9;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu div a:hover {
+    color: #068FFF;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.menubar {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+.highlighter {
+    background-color: aqua;
+}
+
+.highlighter_2 {
+    background-color: aquamarine;
+}
+
+.highlighter_3 {
+    background-color: blanchedalmond;
+}
+
+.my_font {
+    font-family: 'Source Serif 4', serif;
+}
+
+#intro_background {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+#intro_background>img {
+    width: 100%;
+    height: 43rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+#intro_color_filter {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0%;
+}
+
+#intro_top {
+    width: 100%;
+    height: 6%;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#top_right {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    height: 100%;
+    color: #d9d9d9;
+}
+
+#top_right div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#top_right div img {
+    height: 25px;
+}
+
+#intro_middle {
+    width: 100%;
+    height: 87%;
+}
+
+#top_line {
+    width: 50%;
+    height: 25%;
+    border-right: 1px solid #d9d9d9;
+}
+
+#middle_text {
+    width: 100%;
+    height: 50%;
+}
+
+#logo_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12.5%;
+}
+
+#logo_top img {
+    height: 25px;
+}
+
+#Quote_1 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 40%;
+    color: #d9d9d9;
+}
+
+#Quote_1 p {
+    font-size: 50px;
+}
+
+#Quote_2 {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 1%;
+    width: 100%;
+    height: 35%;
+    color: #d9d9d9;
+}
+
+#Quote_2 p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* #button {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 30%;
+    color: #d9d9d9;
+}
+
+#button p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 300;
+    border: 1px solid #d9d9d9;
+}
+
+#button p:hover {
+    background-color: #d9d9d9;
+    color: black;
+} */
+
+#logo_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12.5%;
+}
+
+#logo_bottom>img {
+    height: 25px;
+}
+
+#bottom_line {
+    width: 50%;
+    height: 25%;
+    border-right: 1px solid #d9d9d9;
+
+}
+
+#intro_bottom {
+    width: 100%;
+    height: 6%;
+    border-top: 1px solid #d9d9d9;
+}
+
+.title h5 {
+    font-size: 30px;
+}
+
+.x {
+    margin-top: 10%;
+    width: 60%;
+    margin-left: 32%;
+    height: auto;
+}
+
+.infrom {
+    margin-top: 40%;
+}
+
+.row .infrom h5 {
+    width: 73%;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.row .infrom p {
+    font-size: 13px;
+    font-weight: 200;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.site-icon img {
+    width: 163%;
+    height: 500px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    transform: translateX(-37%);
+}
+
+#footer {
+    margin-top: 10%;
+}
+
+@media (max-width: 1200px) {
+    .x {
+        margin-left: 20%;
+        width: 80%;
+        height: auto;
+    }
+
+    .infrom {
+        margin-top: 35%;
+        margin-left: 2%;
+    }
+
+    .row .infrom h5 {
+        width: 60%;
+        font-size: 24px;
+        margin-left: 20%;
+    }
+
+    .row .infrom p {
+        font-size: 11px;
+    }
+
+    .site-icon img {
+        transform: translateX(-16%);
+        width: 125%;
+        height: 400px;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        margin-top: 10px;
+        background-color: white;
+        left: 0;
+        text-align: left;
+        width: 100%;
+        height: 120%;
+        z-index: 10;
+    }
+
+    .menu div {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .menu div a {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        text-decoration: none;
+    }
+
+    .navtop button {
+        display: none;
+    }
+
+    .menu div:hover {
+        color: #068FFF;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+    .menubar {
+        display: block;
+    }
+
+    #intro_top #top_right {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .x {
+        margin-left: 20%;
+        width: 80%;
+        height: auto;
+    }
+
+    .infrom {
+        margin-top: 15%;
+        margin-left: 2%;
+        margin-bottom: 15%;
+    }
+
+    .row .infrom h5 {
+        width: 60%;
+        font-size: 24px;
+        margin-left: 20%;
+    }
+
+    .row .infrom p {
+        font-size: 11px;
+    }
+
+    .site-icon img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #footer_row_1{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+    #footer_row_2{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+    #footer_row_3{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+    #footer_row_4{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+}

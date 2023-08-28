@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.highlighter{
+    background-color: aqua;
+}
+.highlighter_2{
+    background-color: aquamarine;
+}
+.highlighter_3{
+    background-color: blanchedalmond;
+}
+
+.my_font{
+    font-family: 'Source Serif 4', serif;
+}
+.signature_font{
+    font-family: 'Great Vibes', cursive;
+}
+
+.navtop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 -20px 150px 0 #ffffff;
+}
+  
+.menu {
+    display: flex;
+}
+  
+.menu div a:hover {
+    color: #068FFF;
+}
+  
+input[type=checkbox] {
+    display: none;
+}
+  
+.menubar {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+.contact-container {
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.form-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.form-table td {
+    padding: 35px;
+}
+
+.form-table td input {
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 2px solid #000000;
+}
+
+.message-form {
+    margin-top: 20px;
+    padding: 35px;
+}
+
+.message-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.submit-button {
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px;
+
+
+}
+
+.submit-button button {
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    width: 200px;
+}
+
+
+.site-icon img {
+    width: 163%;
+    height: 500px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    transform: translateX(-37%);
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .site-icon img {
+      transform: translateX(-16%);
+      width: 125%;
+      height: 400px;
+  }
+  
+  .menu {
+      display: none;
+      position: fixed;
+      margin-top: 10px;
+      background-color: white;
+      left: 0;
+      text-align: left;
+      width: 100%;
+      height: 120%;
+      z-index: 10;
+  }
+  
+  .menu div {
+      margin-top: 15px;
+      margin-left: 20px;
+  }
+  
+  .menu div a {
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      text-decoration: none;
+  }
+  
+  .navtop #navbutton {
+      display: none;
+  }
+  
+  .menu div:hover {
+      color: #068FFF;
+  }
+  
+  input[type=checkbox]:checked~.menu {
+      display: block;
+  }
+  
+  .menubar {
+      display: block;
+  } 
+}
+
+@media screen and (max-width: 992px) {
+    #footer_row_1{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+    #footer_row_2{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+    #footer_row_3{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+    #footer_row_4{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+    #Wong_pop_left{
+      border-right: 0 !important;
+    }
+    #Wong_img{
+      width: 50%;
+    }
+}

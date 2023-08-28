@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.highlighter{
+    background-color: aqua;
+}
+.highlighter_2{
+    background-color: aquamarine;
+}
+.highlighter_3{
+    background-color: blanchedalmond;
+}
+.my_font{
+    font-family: 'Source Serif 4', serif;
+}
+.signature_font{
+    font-family: 'Great Vibes', cursive;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+hr.solid {
+    border-top: 2px solid #000000;
+    margin-bottom: 3em;
+    max-width: 100%;
+}
+
+.highlighter{
+    background-color: aqua;
+}
+.highlighter_2{
+    background-color: aquamarine;
+}
+.highlighter_3{
+    background-color: blanchedalmond;
+}
+
+.my_font{
+    font-family: 'Source Serif 4', serif;
+}
+.signature_font{
+    font-family: 'Great Vibes', cursive;
+}
+
+.navtop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+}
+
+.navmid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+}
+
+.navitem{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu div a:hover {
+    color: #068FFF;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.menubar {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+div#intro_background{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+div#intro_background>img{
+    width: 100%;
+    height: 43rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+div#intro_color_filter{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0%;
+}
+
+div#intro_top{
+    width: 100%;
+    height: 6%;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+div#top_right{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    height: 100%;
+    color: #d9d9d9;
+}
+
+div#top_right>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+div#top_right>div>img{
+    height: 25px;
+}
+
+div#intro_middle{
+    width: 100%;
+    height: 88%;
+}
+    div#top_line{
+        width: 50%;
+        height: 25%;
+        border-right: 1px solid #d9d9d9;
+    }
+    div#middle_text{
+        width: 100%;
+        height: 50%;
+    }
+    div#logo_top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 12.5%;
+    }
+    div#logo_top>img{
+        height: 25px;
+    }
+    div#Quote_1{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 100%;
+        height: 60%;
+        color: #d9d9d9;
+    }
+    div#Quote_1>p{
+        font-size: 50px;
+    }
+    div#Quote_2{
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    color: #d9d9d9;
+}
+
+div#Quote_2>p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+div#button{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 30%;
+    color: #d9d9d9;
+}
+
+div#button>p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 300;
+    border: 1px solid #d9d9d9;
+}
+
+div#button>p:hover{
+    background-color: #d9d9d9;
+    color: black;
+}
+div#logo_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12.5%;
+}
+
+div#logo_bottom>img{
+    height: 25px;
+}
+
+div#bottom_line{
+    width: 50%;
+    height: 25%;
+    border-right: 1px solid #d9d9d9;
+
+}
+
+div#intro_bottom{
+    width: 100%;
+    height: 6%;
+    border-top: 1px solid #d9d9d9;
+}
+
+.sticky-top2{
+    position: sticky;
+    top: 7.5em;
+    z-index: 1019;
+}
+
+
+.row{
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+}
+
+
+
+.card h6 {
+    color: grey;
+}
+
+@media screen and (max-width: 992px) {
+    #footer_row_1{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+    #footer_row_2{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+    #footer_row_3{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+    #footer_row_4{
+        width: 50%;
+        border-right: 0px solid #d9d9d9 !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+  .site-icon img {
+    transform: translateX(-16%);
+    width: 125%;
+    height: 400px;
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    margin-top: 10px;
+    background-color: white;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    height: 120%;
+    z-index: 10;
+}
+
+.menu div {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.menu div a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.navtop button {
+    display: none;
+}
+
+.menu div:hover {
+    color: #068FFF;
+}
+
+input[type=checkbox]:checked~.menu {
+    display: block;
+}
+
+.menubar {
+    display: block;
+} 
+}

@@ -302,7 +302,7 @@ div#intro_bottom{
     font-family: 'Source Serif 4', serif;
 }
 
-.navtop button {
+.navtop #navbutton {
     display: none;
 }
 

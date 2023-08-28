@@ -312,7 +312,7 @@ input[type=checkbox] {
         text-decoration: none;
     }
 
-    .navtop button {
+    .navtop #navbutton {
         display: none;
     }
 

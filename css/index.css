@@ -206,17 +206,24 @@ div#intro_background>img{
     width: 125%;
     height: 400px;
 }
+  div#top_right{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 100%;
+  color: #d9d9d9;
+}
 
 .menu {
     display: none;
     position: fixed;
-    margin-top: 10px;
+    margin-top: 10;
     background-color: white;
     left: 0;
     text-align: left;
     width: 100%;
-    height: 120%;
-    z-index: 10;
+    height: 100%;
+    z-index: 20;
 }
 
 .menu div {
@@ -224,11 +231,13 @@ div#intro_background>img{
     margin-left: 20px;
 }
 
-.menu div a {
+.menu a {
     color: black;
+    margin: 2rem !important;
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 20px;
     text-decoration: none;
+    font-family: 'Source Serif 4', serif;
 }
 
 .navtop #navbutton {

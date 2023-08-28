@@ -291,11 +291,13 @@ div#intro_background>img{
     margin-left: 20px;
 }
 
-.menu div a {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    text-decoration: none;
+.menu a {
+  color: black;
+  margin: 2rem !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Source Serif 4', serif;
 }
 
 .navtop #navbutton {

@@ -175,6 +175,10 @@ h2 {
   .menubar {
       display: block;
   } 
+
+  #intro_top #top_right {
+    display: none;
+}
 }
 
 @media screen and (max-width: 992px) {
